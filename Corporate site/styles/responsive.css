@@ -1,0 +1,221 @@
+@media (max-width: 412px) {
+        .header-content__description{
+                max-width: 32rem;
+        }
+}
+
+@media (max-width: 516px) {
+        .header-content__title {
+                max-width: 45rem;
+        }
+}
+
+@media (min-width: 576px) {
+        .container {
+                width: 54rem;
+        }
+        .section-title{
+                font-size: 3.4rem;
+        }
+        .about-items{
+                flex-direction: row;
+                gap: 3rem;
+        }
+        .about-item__caption{
+                max-width: 90%;
+        }
+        .portfolio-item{
+                flex-basis: 28rem;
+        }
+        .services-item{
+                flex-basis: 27rem;
+        }
+        .services-bottom__caption{
+                width: 33rem;
+        }
+        .team-bottom__title{
+                width: 28rem;
+        }
+        .team-bottom__caption{
+                width: 41rem;
+        }
+        .client-brand{
+                flex-basis: 16rem;
+        }
+        .pricing-table{
+                flex-grow: 0;
+                flex-basis: 24rem;
+        }
+}
+    
+@media (min-width: 768px) {
+        .container {
+                width: 72rem;
+        }
+        .nav{
+                padding-left: 0;
+
+        }
+        .nav__btn{
+                display: none;
+        }
+        .menu{
+                position: static;
+                visibility: visible;
+                opacity: 1;
+                pointer-events: visible;
+                display: flex;
+        }
+        .menu__link {
+                text-transform: capitalize;
+                border-top: none;
+                font-size: 1.4rem;
+                padding: 0 1.5rem;
+                background-color: transparent;
+        }
+        .menu__link:hover {
+                color: var(--primary-color);
+                background-color: transparent;
+        }
+        .header-content__title {
+                font-size: 6rem;
+                max-width: 68rem;
+        }
+        .section-caption{
+                width: 70%;
+        }
+        .portfolio-item{
+                flex-basis: 38rem;
+        }
+        .services-item{
+                flex-basis: 34rem;
+        }
+        .services-bottom__caption{
+                width: 44rem;
+        }
+        .team-bottom__title{
+                width: 47rem;
+        }
+        .team-bottom__caption{
+                width: 59rem;
+        }
+        .team-bottom__wrapper{
+                flex-direction: row;
+                gap: 2rem;
+        }
+        .pricing-table{
+                flex-basis: 21rem;
+        }
+        .blog-posts{
+                gap: 3rem;
+        }
+        .blog-post{
+                flex-basis: 21rem;
+        }
+        .footer-wrapper{
+                flex-direction: row;
+        }
+}
+    
+@media (min-width: 992px) {
+        .container {
+                width: 96rem;
+        }
+        .header-content__title {
+                max-width: 69rem;
+        }
+        .about-bottom-wrapper{
+                width: 50%;                
+        }
+        .portfolio-item{
+                flex-basis: 24rem;
+        }
+        .services-item{
+                flex-basis: 31rem;
+        }
+        .services-bottom__title{
+                max-width: 68rem;
+        }
+        .services-bottom__caption{
+                width: 59rem;
+        }
+        .team-bottom__wrapper{
+                flex-direction: row;
+        }
+        .team-bottom__caption{
+                width: 76rem;
+        }
+        .client-brand{
+                flex-basis: 17rem;
+        }
+        .pricing-table{
+                flex-basis: 29rem;
+        }
+        .blog-post{
+                flex-basis: 29rem;
+        }
+        .contact-form__input:nth-child(1) ,.contact-form__input:nth-child(2){
+                display: inline-block;
+                width: 48%;
+        }
+        .contact-form__input:nth-child(1){
+                margin-right: 1.5rem;
+        }
+        .contact-wrapper{
+                flex-direction: row;
+                gap: 0;
+        }
+        .contact-form{
+                flex-basis: 70%;
+        }
+        .contact-items{
+                flex-basis: 30%;
+        }
+        .contact-item{
+                margin-bottom: 2rem;
+        }
+}
+    
+@media (min-width: 1200px) {
+        .container {
+                width: 114rem;
+        }
+        .menu__link {
+                font-size: 1.8rem;
+        }
+        .portfolio-item{
+                flex-basis: 30rem;
+        }
+        .services-item{
+                flex-basis: 37rem;
+        }
+        .services-bottom__caption{
+                width: 67rem;
+        }
+        .team-bottom__caption{
+                width: 101rem;
+        }
+        .client-brand{
+                flex-basis: 16rem;
+        }
+        .pricing-table{
+                flex-basis: 35rem;
+        }
+        .blog-post{
+                flex-basis: 35rem;
+        }
+        .contact-form__input:nth-child(1) ,.contact-form__input:nth-child(2){
+                width: 49%;
+        }
+        .contact-form__input:nth-child(1){
+                margin-right: 1rem;
+        }
+}
+@media (min-width: 1400px) {
+        .container {
+                width: 137rem;
+        }
+        .portfolio-item{
+                flex-basis: 35rem;
+        }
+}
